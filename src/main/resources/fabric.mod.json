@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "betterspikes",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "BetterSpikes",
+  "description": "Changes the spike trap to behave more like the modern magma block.",
   "authors": [
-    "Turnip Labs"
+    "FrigidOven"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"frigidoven.betterspikes.BetterSpikes"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"frigidoven.betterspikes.BetterSpikes"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"frigidoven.betterspikes.BetterSpikes"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"frigidoven.betterspikes.BetterSpikes"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+    "betterspikes.mixins.json"
   ],
 
   "depends": {
