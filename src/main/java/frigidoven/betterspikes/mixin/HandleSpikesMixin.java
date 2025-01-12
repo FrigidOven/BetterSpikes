@@ -16,7 +16,7 @@ import static turniplabs.halplibe.HalpLibe.LOGGER;
 @Mixin(value = BlockSpikes.class, remap = false)
 public abstract class HandleSpikesMixin {
 	@Inject(
-		method = "Lnet/minecraft/core/block/BlockSpikes;onEntityCollidedWithBlock(Lnet/minecraft/core/world/World;IIILnet/minecraft/core/entity/Entity;)V",
+		method = "onEntityCollidedWithBlock(Lnet/minecraft/core/world/World;IIILnet/minecraft/core/entity/Entity;)V",
 		at = @At("HEAD"),
 		cancellable = true,
 		remap = false

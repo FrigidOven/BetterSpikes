@@ -1,12 +1,10 @@
 package frigidoven.betterspikes;
 
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.core.block.Block;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import turniplabs.halplibe.util.GameStartEntrypoint;
 import turniplabs.halplibe.util.RecipeEntrypoint;
-import net.minecraft.core.block.BlockSpikes;
 
 
 public class BetterSpikes implements ModInitializer, GameStartEntrypoint, RecipeEntrypoint {
