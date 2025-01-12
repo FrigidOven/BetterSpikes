@@ -1,6 +1,6 @@
 # Better Spikes
 
-A mod for Minecract Better than Adventure that changes the spike trap to behave more similarly to modern Minecraft's magma block.
+A mod for Minecraft Better than Adventure that changes the spike trap to behave more like modern Minecraft's magma block.
 
 ## Changes
 
